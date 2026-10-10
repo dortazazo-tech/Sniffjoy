@@ -1,0 +1,29 @@
+name: Fetch creatives
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [creatives/urls.txt]
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download images listed in creatives/urls.txt
+        run: |
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            [ -f "creatives/$name.png" ] || curl -fsSL -o "creatives/$name.png" "$url"
+          done < creatives/urls.txt
+      - name: Commit new images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add creatives/*.png
+          git diff --cached --quiet || git commit -m "Add fetched creative images"
+          git push
