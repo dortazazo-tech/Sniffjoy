@@ -14,3 +14,7 @@ a-boredom-vomit https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZ
 a-3-seconds https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20260926_185223_efca3758-943e-43da-8cd7-3b1a03eb9dd6.mp3
 a-busy-calm https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20260926_185223_1d707fcc-54cb-433c-99a4-0322853880af.mp3
 a-same-portion https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20260926_185223_8387d66c-5c5f-4029-9c57-ce09b1a72891.mp3
+vo1-hook https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20261011_120701_d814317a-370e-40e4-b545-6ec6e4afc092.mp3
+vo2-3-seconds https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20261011_120701_400573dd-8a78-4fbf-a50e-29327181d0d2.mp3
+vo3-mechanism https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20261011_120713_66e5f721-977b-45c7-aaf5-3680afc38428.mp3
+vo4-cta https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20261011_120720_790767d2-34cf-448a-a3d3-3fad2d69f814.mp3
