@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [creatives/urls.txt]
+    paths: [creatives/urls.txt, creatives/video-urls.txt]
 
 permissions:
   contents: write
@@ -14,16 +14,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download images listed in creatives/urls.txt
+      - name: Download images
         run: |
           while read -r name url; do
             [ -z "$name" ] && continue
             [ -f "creatives/$name.png" ] || curl -fsSL -o "creatives/$name.png" "$url"
           done < creatives/urls.txt
-      - name: Commit new images
+      - name: Download video clips and voiceovers
+        run: |
+          mkdir -p creatives/raw
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            ext="${url##*.}"
+            [ -f "creatives/raw/$name.$ext" ] || curl -fsSL -o "creatives/raw/$name.$ext" "$url"
+          done < creatives/video-urls.txt
+      - name: Commit new files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add creatives/*.png
-          git diff --cached --quiet || git commit -m "Add fetched creative images"
+          git add creatives
+          git diff --cached --quiet || git commit -m "Add fetched creative files"
           git push
