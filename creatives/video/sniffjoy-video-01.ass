@@ -1,0 +1,22 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Heebo ExtraBold,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,4,2,8,50,50,170,1
+Style: End,Heebo ExtraBold,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,3,1,5,50,50,0,1
+Style: EndSmall,Heebo,44,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,1,5,50,50,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.30,Cap,,0,0,0,,‏הוא לא הורס‏\N‏כי הוא רע‏
+Dialogue: 0,0:00:02.30,0:00:04.50,Cap,,0,0,0,,‏הוא הורס‏\N‏כי משעמם לו‏
+Dialogue: 0,0:00:04.50,0:00:08.00,Cap,,0,0,0,,‏ארוחה של‏\N‏שלוש שניות‏\N‏וזהו‏
+Dialogue: 0,0:00:08.00,0:00:11.30,Cap,,0,0,0,,‏אותה מנה‏\N‏רק שעכשיו הוא‏\N‏צריך למצוא אותה‏
+Dialogue: 0,0:00:11.30,0:00:15.00,Cap,,0,0,0,,‏הליכה מעייפת לו את הרגליים‏\N‏הרחה מעייפת לו את הראש‏
+Dialogue: 0,0:00:15.00,0:00:18.00,End,,0,0,0,,{\pos(360,520)}‏משטח הרחה SniffJoy‏
+Dialogue: 0,0:00:15.00,0:00:18.00,EndSmall,,0,0,0,,{\pos(360,640)}‏‏139 ₪ · שניים ב-219 ₪‏
+Dialogue: 0,0:00:15.00,0:00:18.00,EndSmall,,0,0,0,,{\pos(360,720)}‏14 ימים להתנסות‏
