@@ -3,13 +3,13 @@
 **גל 1 · 2026-10-10 · Higgsfield `nano_banana_2` · 4:5 · 1k**
 רפרנס: הכלב הכנעני + משטח הפרח (job `d41405bf-4ed9-4801-9d55-9c25775df67a`)
 
-התמונות נקיות, בלי טקסט. את הטקסט העברי מוסיפים בקנבה: לבן, מודגש, צל עדין, בשליש העליון.
+הקבצים כאן נקיים, בלי טקסט. **הגרסאות הסופיות עם הטקסט העברי צרוב נמצאות ב-`creatives/final/`** ואותן מעלים למטא.
 
 | # | טקסט על התמונה | קובץ (Higgsfield) | QA |
 |---|---|---|---|
 | 1 | זה לא רעב. זה שעמום. | [0cc45929](https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20261010_170923_0cc45929-75ea-421e-8924-d4cf75715dda.png) | ✅ |
 | 2 | הוא לא הורס כי הוא רע. הוא הורס כי משעמם לו. | [c374d4eb](https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20261010_170923_c374d4eb-9b0d-487e-bde9-8ebed428841e.png) | ✅ |
-| 3 | תפסיק להאכיל את הכלב שלך מקערה. | [02b87566](https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20261010_170923_02b87566-1797-48a1-8e83-6b1f0e84cb36.png) | ✅ |
+| 3 | תפסיקו להאכיל את הכלב שלכם מקערה. | [02b87566](https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20261010_170923_02b87566-1797-48a1-8e83-6b1f0e84cb36.png) | ✅ |
 | 4 | הליכה מעייפת לו את הרגליים. הרחה מעייפת לו את הראש. | [edf47cd6](https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20261010_170922_edf47cd6-bdcd-4722-8ac1-b095a8f5a542.png) | ✅ |
 | 8 | הכלב שלך לא מתעניין בצעצועים? זה לא צעצוע. זה האוכל שלו. | [443152cb](https://d8j0ntlcm91z4.cloudfront.net/user_3ATTpsLlm2zQmu3KdbUGkZRq1sd/hf_20261010_170922_443152cb-8cbb-47fb-924c-44af8ef8dbbc.png) | ✅ |
 | 17 | אחד על הרצפה, אחד בכביסה. 2 משטחים ב-₪219 במקום ₪278. | `17c-one-floor-one-wash.png` (גרסה 3; 17 ו-17b נפסלו) | ✅ |

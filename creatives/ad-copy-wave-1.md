@@ -2,8 +2,8 @@
 
 **לכל המודעות:**
 - **כפתור:** Shop Now (לקנייה)
-- **יעד:** דף משטח ההרחה
-- **UTM:** `?utm_source=meta&utm_medium=paid&utm_campaign=unit1&utm_content=ad01` (ad01, ad02 וכן הלאה)
+- **יעד:** `https://sniffjoy.co/products/משטח-הרחה-אינטראקטיבי-לכלבים?view=bored` (גרסת הקמפיין של הדף)
+- **UTM** (בשדה URL parameters של המודעה): `utm_source=meta&utm_medium=paid&utm_campaign=unit1&utm_content={{ad.name}}`
 - **תיאור (Description):** משטח הרחה ₪139 · 2 ב-₪219
 
 **כללים:**
